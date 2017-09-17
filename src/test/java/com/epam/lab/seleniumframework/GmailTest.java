@@ -5,6 +5,7 @@ import com.epam.lab.seleniumframework.businessobjects.GmailLoginBO;
 import com.epam.lab.seleniumframework.models.Letter;
 import com.epam.lab.seleniumframework.models.User;
 import com.epam.lab.seleniumframework.utils.DataUtils;
+import com.epam.lab.seleniumframework.utils.WebDriverUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -29,7 +30,7 @@ public class GmailTest {
 
     @AfterClass
     public void tearDown() throws Exception {
-        // WebDriverUtils.quit();
+         WebDriverUtils.quit();
     }
 
     @Test(dataProvider = "testData", threadPoolSize = 2)
@@ -39,13 +40,6 @@ public class GmailTest {
         Assert.assertTrue(gmailHomeBO.isLetterSavedInDraft(letter));
         Assert.assertTrue(gmailHomeBO.isLetterSent(letter));
     }
-
-    @Test(dataProvider = "testData")
-    public void testGmail(User user, Letter letter) {
-        System.out.println(user);
-        System.out.println(letter);
-    }
-
 
     @DataProvider(name = "testData", parallel = true)
     public Object[][] getTestData() throws Exception {
