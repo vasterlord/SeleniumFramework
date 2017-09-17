@@ -42,7 +42,10 @@ public class GmailHomePage extends PageObject {
     @FindBys({
             @FindBy(xpath = "//table[@class='F cf zt']/tbody/tr[1]/td[6]/div[1]/div[1]/div[1]/span")
     })
-    private List<WebElement> letterActionOpenElement;
+    private List<TextInput> letterActionOpenElement;
+
+    public GmailHomePage() {
+    }
 
     public void writeLetter(String receiverText, String subjectText, String contentLetterText) {
         waitElementToBeLoaded("//div[@class='T-I J-J5-Ji T-I-KE L3']");

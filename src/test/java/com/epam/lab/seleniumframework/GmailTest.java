@@ -14,10 +14,10 @@ import java.util.List;
 
 public class GmailTest {
 
-    GmailLoginBO gmailLoginBO;
-    GmailHomeBO gmailHomeBO;
-    List<User> userList;
-    List<Letter> letterList;
+    private GmailLoginBO gmailLoginBO;
+    private GmailHomeBO gmailHomeBO;
+    private List<User> userList;
+    private List<Letter> letterList;
 
     @BeforeMethod
     public void setUp() throws Exception {

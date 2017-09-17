@@ -23,8 +23,8 @@ public class PageObject {
     }
 
     protected void waitElementToBeLoaded(String locator) {
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 60).until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 60).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 60).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
     }
 }

@@ -2,7 +2,6 @@ package com.epam.lab.seleniumframework.controls.decorationutils;
 
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
@@ -44,8 +43,7 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
 
         if (List.class.isAssignableFrom(clazz)) {
 
-            if (field.getAnnotation(FindBy.class) == null &&
-                    (field.getAnnotation(FindBys.class) == null || field.getAnnotation(FindAll.class) == null)) {
+            if (field.getAnnotation(FindBy.class) == null && field.getAnnotation(FindBys.class) == null) {
                 return null;
             }
             Type genericType = field.getGenericType();
@@ -70,15 +68,9 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
     }
 
     @SuppressWarnings("unchecked")
-    protected List<AbstractElement> createList(ClassLoader loader,
-                                        ElementLocator locator,
-                                        Class<AbstractElement> clazz) {
-
-        InvocationHandler handler =
-                new LocatingCustomElementListHandler(locator, clazz);
-        List<AbstractElement> elements =
-                (List<AbstractElement>) Proxy.newProxyInstance(
-                        loader, new Class[] {List.class}, handler);
+    protected List<AbstractElement> createList(ClassLoader loader, ElementLocator locator, Class<AbstractElement> clazz) {
+        InvocationHandler handler = new LocatingCustomElementListHandler(locator, clazz);
+        List<AbstractElement> elements = (List<AbstractElement>) Proxy.newProxyInstance(loader, new Class[] {List.class}, handler);
         return elements;
     }
 
