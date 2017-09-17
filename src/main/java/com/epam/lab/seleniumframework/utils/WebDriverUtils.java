@@ -14,11 +14,13 @@ public class WebDriverUtils {
     public static WebDriver getWebDriverThreadLocal() {
         ConfigurationProperties configurationProperties = new ConfigurationProperties();
         if (webDriverThreadLocal.get() != null) {
+            LOGGER.info("Get instance");
             return webDriverThreadLocal.get();
         }
         System.setProperty(configurationProperties.getWebDriverName(), configurationProperties.getWebDriverPath());
         WebDriver webDriverInstance = new ChromeDriver();
         webDriverThreadLocal.set(webDriverInstance);
+        LOGGER.info("Create instance");
         webDriverThreadLocal.get().manage().window().maximize();
         webDriverThreadLocal.get().manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
         webDriverThreadLocal.get().manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);

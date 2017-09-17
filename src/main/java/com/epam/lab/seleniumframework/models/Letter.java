@@ -35,4 +35,5 @@ public class Letter {
     public void setContentLetter(String contentLetter) {
         this.contentLetter = contentLetter;
     }
+
 }
