@@ -1,7 +1,7 @@
 package com.epam.lab.seleniumframework.pageobjects;
 
-import com.epam.lab.seleniumframework.controls.decorationutils.TextInput;
-import com.epam.lab.seleniumframework.controls.decorationutils.TextSection;
+import com.epam.lab.seleniumframework.controls.TextInput;
+import com.epam.lab.seleniumframework.controls.TextSection;
 import com.epam.lab.seleniumframework.utils.WebDriverUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;

@@ -1,6 +1,6 @@
 package com.epam.lab.seleniumframework.pageobjects;
 
-import com.epam.lab.seleniumframework.controls.decorationutils.CustomFieldDecorator;
+import com.epam.lab.seleniumframework.controls.decorataionfactory.CustomFieldDecorator;
 import com.epam.lab.seleniumframework.utils.ConfigurationProperties;
 import com.epam.lab.seleniumframework.utils.WebDriverUtils;
 import org.openqa.selenium.By;
