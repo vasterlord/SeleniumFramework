@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <letters>
     <letters>
-        <contentLetter>It's letter sent from testng selenium test to first user</contentLetter>
-        <receiverEmail>testuser@gmail.com</receiverEmail>
-        <subjectText>Selenium letter subject with second user</subjectText>
-    </letters>
-    <letters>
-        <contentLetter>It's letter sent from testng selenium test to fourth user</contentLetter>
-        <receiverEmail>lig2a4@gmail.com</receiverEmail>
-        <subjectText>Selenium letter subject with third user</subjectText>
+        <contentLetter>It's letter sent from testng selenium test to second user</contentLetter>
+        <receiverEmail>iryna123first@gmail.com</receiverEmail>
+        <subjectText>Selenium letter subject from first</subjectText>
     </letters>
     <letters>
         <contentLetter>It's letter sent from testng selenium test to third user</contentLetter>
-        <receiverEmail>iryna123first@gmail.com</receiverEmail>
-        <subjectText>Selenium letter subject with fourth user</subjectText>
+        <receiverEmail>lig2a4@gmail.com</receiverEmail>
+        <subjectText>Selenium letter subject from second user</subjectText>
+    </letters>
+    <letters>
+        <contentLetter>It's letter sent from testng selenium test to first user</contentLetter>
+        <receiverEmail>irisha.ruda85@gmail.com</receiverEmail>
+        <subjectText>Selenium letter subject from third user</subjectText>
     </letters>
 </letters>

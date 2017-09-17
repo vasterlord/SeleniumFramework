@@ -1,6 +1,7 @@
 package com.epam.lab.seleniumframework.pageobjects;
 
-import com.epam.lab.seleniumframework.controls.TextInput;
+import com.epam.lab.seleniumframework.controls.decorationutils.TextInput;
+import com.epam.lab.seleniumframework.controls.decorationutils.TextSection;
 import com.epam.lab.seleniumframework.utils.WebDriverUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -16,7 +17,7 @@ public class GmailHomePage extends PageObject {
     private static final Logger LOGGER = Logger.getLogger(GmailHomePage.class);
 
     @FindBy(xpath = "//div[@class='T-I J-J5-Ji T-I-KE L3']")
-    private TextInput writeActionElement;
+    private TextSection writeActionElement;
 
     @FindBy(xpath = "//textarea[@class='vO']")
     private TextInput receiverElement;
@@ -28,27 +29,27 @@ public class GmailHomePage extends PageObject {
     private TextInput contentLetterElement;
 
     @FindBy(xpath = "//div[@class='T-I J-J5-Ji aoO T-I-atl L3']")
-    private TextInput sendLetterActionElement;
+    private TextSection sendLetterActionElement;
 
     @FindBy(xpath = "//table[@class='cf Ht']//img[@class='Ha']")
-    private TextInput closeLetterActionElement;
+    private TextSection closeLetterActionElement;
 
     @FindBy(xpath = "//div[@class='TK']/div[4]/div[1]/div[1]/div[2]/span[1]/a[1]")
-    private TextInput draftLinkElement;
+    private TextSection draftLinkElement;
 
     @FindBy(xpath = "//div[@class='TK']/div[3]/div[1]/div[1]/div[2]/span[1]/a[1]")
-    private TextInput sentLinkElement;
+    private TextSection sentLinkElement;
 
     @FindBys({
             @FindBy(xpath = "//table[@class='F cf zt']/tbody/tr[1]/td[6]/div[1]/div[1]/div[1]/span")
     })
-    private List<TextInput> letterActionOpenElement;
+    private List<TextSection> letterActionOpenElement;
 
     public GmailHomePage() {
     }
 
     public void writeLetter(String receiverText, String subjectText, String contentLetterText) {
-        waitElementToBeLoaded("//div[@class='T-I J-J5-Ji T-I-KE L3']");
+        waitPresenceOfElement("//div[@class='T-I J-J5-Ji T-I-KE L3']");
         writeActionElement.click();
         receiverElement.sendKeys(receiverText);
         subjectElement.sendKeys(subjectText);
@@ -57,8 +58,8 @@ public class GmailHomePage extends PageObject {
     }
 
     public boolean isLoggedIn() {
-        waitElementToBeLoaded("//div[@class='T-I J-J5-Ji T-I-KE L3']");
-        if (writeActionElement.isVisible()) {
+        waitPresenceOfElement("//div[@class='T-I J-J5-Ji T-I-KE L3']");
+        if (writeActionElement.isFullEnabled()) {
             LOGGER.info("User successfully logged in");
             return true;
         } else {
@@ -82,27 +83,29 @@ public class GmailHomePage extends PageObject {
         return isSavedInSection(subjectText, contentLetterText, sentLinkElement);
     }
 
-    private boolean isSavedInSection(String subjectText, String contentLetterText, WebElement letersSectionWebElement) {
-        List<WebElement> letterDraftInfo = letterActionOpenElement.stream().filter(item -> item.getText().length() > 0).collect(Collectors.toList());
-        if (letterDraftInfo.get(0).getText().equalsIgnoreCase(subjectText) && letterDraftInfo.get(1).getText().contains(contentLetterText)) {
-            LOGGER.info(String.format("Message successfully saved in %s", letersSectionWebElement.getText()));
+    private boolean isSavedInSection(String subjectText, String contentLetterText, WebElement lettersSectionWebElement) {
+        List<WebElement> letterDraftInfo = letterActionOpenElement.stream().filter(item -> item.getText().toLowerCase().contains(subjectText.toLowerCase()) ||
+                item.getText().toLowerCase().contains(contentLetterText.toLowerCase())).collect(Collectors.toList());
+        letterDraftInfo = letterDraftInfo.stream().distinct().collect(Collectors.toList());
+        if (letterDraftInfo.get(0).getText().equalsIgnoreCase(subjectText) && letterDraftInfo.get(1).getText().toLowerCase().contains(contentLetterText.toLowerCase())) {
+            LOGGER.info(String.format("Message successfully saved in %s", lettersSectionWebElement.getText()));
             return true;
         } else {
-            LOGGER.info(String.format("Message didn't save in %s", letersSectionWebElement.getText()));
+            LOGGER.info(String.format("Message didn't save in %s", lettersSectionWebElement.getText()));
             return false;
         }
     }
 
     public void sendLetterFromDraft() {
         letterActionOpenElement.stream().filter(item -> item.getText().length() > 0).findFirst().get().click();
+        waitPresenceOfElement("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']");
         sendLetterActionElement.click();
         LOGGER.info("Message from draft successfully sent");
     }
 
     private void getLettersFromSection(WebElement webElement) {
         webElement.click();
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 10).until(ExpectedConditions.urlToBe(webElement.getAttribute("href")));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.urlToBe(webElement.getAttribute("href")));
     }
-
 
 }

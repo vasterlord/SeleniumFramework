@@ -29,13 +29,14 @@ public class GmailTest {
 
     @AfterClass
     public void tearDown() throws Exception {
-         //WebDriverUtils.close();
+        // WebDriverUtils.quit();
     }
 
     @Test
     public void testGmailFunctionality() {
         User currentUser = userList.get(0);
-        Assert.assertTrue(gmailLoginBO.isSignIn(currentUser));
+        gmailLoginBO.signIn(currentUser);
+        Assert.assertTrue(gmailHomeBO.isSignIn());
         Letter currentLetter = letterList.get(0);
         Assert.assertTrue(gmailHomeBO.isLetterSavedInDraft(currentLetter));
         Assert.assertTrue(gmailHomeBO.isLetterSent(currentLetter));

@@ -104,4 +104,3 @@ public class AbstractElement implements WebElement, WrapsElement {
         return this.webElement;
     }
 }
-
