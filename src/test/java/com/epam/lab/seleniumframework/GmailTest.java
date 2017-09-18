@@ -8,10 +8,7 @@ import com.epam.lab.seleniumframework.utils.DataUtils;
 import com.epam.lab.seleniumframework.utils.WebDriverUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.List;
 
@@ -22,7 +19,7 @@ public class GmailTest {
     private GmailLoginBO gmailLoginBO;
     private GmailHomeBO gmailHomeBO;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() throws Exception {
         gmailLoginBO = new GmailLoginBO();
         gmailHomeBO = new GmailHomeBO();
@@ -42,16 +39,17 @@ public class GmailTest {
     }
 
     @DataProvider(name = "testData", parallel = true)
-    public Object[][] getTestData() throws Exception {
+    public static Object[][] getTestData() throws Exception {
         List<User> userList = DataUtils.getUsersFromXML().getUsers();
         List<Letter> letterList = DataUtils.getLettersFromXML().getLetters();
         int rowCount = userList.size();
         int columnCount = 2;
         Object[][] testData = new Object[rowCount][columnCount];
-        for (int i = 0; i < rowCount; i++) {
+        for (int i = 0; i < 1; i++) {
             testData[i][0] = userList.get(i);
             testData[i][1] = letterList.get(i);
         }
         return testData;
     }
+
 }

@@ -1,177 +1,154 @@
-[INFO ] [2017-09-18 01:34:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 22, msg: Create instance
-[INFO ] [2017-09-18 01:34:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 46, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:34:30] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 46, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 01:34:55] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 46, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:35:00] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 46, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 01:35:03] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 46, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:35:05] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 46, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 01:38:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:38:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:38:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:38:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:38:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:38:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:38:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:38:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:38:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:40:13] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:40:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:40:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:40:15] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:40:15] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:40:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:40:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:40:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:40:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:45:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:45:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:45:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:45:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:45:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:45:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:45:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:45:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Try create instance
-[INFO ] [2017-09-18 01:45:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:48:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:48:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:48:24] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:48:25] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:48:25] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:48:25] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:48:25] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:48:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:48:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:50:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:50:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:50:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:50:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:50:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:50:13] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:50:13] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:50:15] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:50:15] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:57:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:57:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:57:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:57:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:57:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:57:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:57:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:57:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:57:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:58:29] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 01:58:31] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:31] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:58:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 01:58:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:42] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:42] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:43] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 01:58:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 01:58:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:01:21] file: DataUtils.java, class: com.epam.lab.seleniumframework.utils.DataUtils, method: getLettersFromXML, line: 40, msg: JAXBException : null
-[INFO ] [2017-09-18 02:02:27] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:02:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:02:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 02:02:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:38] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:38] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:38] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:02:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:03:08] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:03:08] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:03:08] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:04:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:04:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:04:18] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 02:04:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:24] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:24] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:24] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:25] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:44] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
-[INFO ] [2017-09-18 02:04:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:04:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:05:00] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 02:08:04] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:08:04] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:08:05] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:08:07] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:08:07] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:08:08] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:08:08] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:09:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:09:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:09:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:09:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:09:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:09:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:12:18] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:12:18] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:12:19] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:19] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:12:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:12:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 02:12:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:12:47] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:13:52] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:13:52] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
-[INFO ] [2017-09-18 02:13:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:13:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:13:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:13:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
-[INFO ] [2017-09-18 02:14:04] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
-[INFO ] [2017-09-18 02:14:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:13] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
-[INFO ] [2017-09-18 02:14:15] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:58:17] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 02:58:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 02:58:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 02:59:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 02:59:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 02:59:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 02:59:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:54] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:57] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:57] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 02:59:59] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:18] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:21] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 03:00:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:30] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:00:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:00:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:00:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:01:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:01:46] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:46] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:01:51] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:01:55] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:55] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:55] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:57] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:01:59] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:17] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:17] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 03:02:17] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:17] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:17] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:27] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:27] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:02:27] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:02:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:02:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:04:30] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:04:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:04:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:04:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:42] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:42] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:43] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:04:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:05:02] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:05:02] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:05:02] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:05:05] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:05:07] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:06:09] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:06:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:11] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:06:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:06:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:24] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:06:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:07:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:07:42] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:07:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:46] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:46] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:46] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:47] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:07:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:08:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:08:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:08:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:09:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:10:01] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:11:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:11:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:12:43] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:13:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:14:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:14:43] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:17:30] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:17:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:18:55] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:18:59] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:19:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:19:52] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:21:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:21:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:22:47] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:25:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:25:38] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:38] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:25:44] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:25:47] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:47] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:25:51] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:26:09] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser
+[INFO ] [2017-09-18 03:27:20] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 23, msg: Create instance
+[INFO ] [2017-09-18 03:27:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://www.google.com/intl/ua/gmail/about/ 
+[INFO ] [2017-09-18 03:27:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: gotToURL, line: 47, msg: Navigating to https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/ 
+[INFO ] [2017-09-18 03:27:31] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:31] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:31] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 17, msg: Get instance
+[INFO ] [2017-09-18 03:27:52] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 41, msg: Quiting browser

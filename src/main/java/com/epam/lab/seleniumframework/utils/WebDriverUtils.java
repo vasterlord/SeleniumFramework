@@ -14,7 +14,6 @@ public class WebDriverUtils {
     public static WebDriver getWebDriverThreadLocal() {
         ConfigurationProperties configurationProperties = new ConfigurationProperties();
         if (webDriverThreadLocal.get() != null) {
-            LOGGER.info("Get instance");
             return webDriverThreadLocal.get();
         }
         System.setProperty(configurationProperties.getWebDriverName(), configurationProperties.getWebDriverPath());

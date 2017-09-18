@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageObject {
 
+    private static final int TIME_OUT_IN_SECONDS = 30;
     protected ConfigurationProperties configurationProperties;
 
     public PageObject(WebDriver webDriver) {
@@ -23,8 +24,8 @@ public class PageObject {
     }
 
     protected void waitPresenceOfElement(String locator) {
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 200000).until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), TIME_OUT_IN_SECONDS).until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), TIME_OUT_IN_SECONDS).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), TIME_OUT_IN_SECONDS).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
     }
 }

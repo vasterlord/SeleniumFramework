@@ -1,5 +1,6 @@
 package com.epam.lab.seleniumframework.controls.decorataionfactory;
 
+import com.epam.lab.seleniumframework.controls.ElementDecorator;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +20,7 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
 
     @Override
     public Object decorate(ClassLoader loader, Field field) {
-        Class<AbstractElement> decoratableClass = decoratableClass(field);
+        Class<ElementDecorator> decoratableClass = decoratableClass(field);
         if (decoratableClass != null) {
             ElementLocator locator = factory.createLocator(field);
             if (locator == null) {
@@ -36,7 +37,7 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
     }
 
     @SuppressWarnings("unchecked")
-    private Class<AbstractElement> decoratableClass(Field field) {
+    private Class<ElementDecorator> decoratableClass(Field field) {
 
         Class<?> clazz = field.getType();
 
@@ -53,22 +54,22 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
                     getActualTypeArguments()[0];
         }
 
-        if (AbstractElement.class.isAssignableFrom(clazz)) {
-            return (Class<AbstractElement>) clazz;
+        if (ElementDecorator.class.isAssignableFrom(clazz)) {
+            return (Class<ElementDecorator>) clazz;
         } else {
             return null;
         }
     }
 
-    protected AbstractElement createElement(ClassLoader loader, ElementLocator locator, Class<AbstractElement> clazz) {
+    protected ElementDecorator createElement(ClassLoader loader, ElementLocator locator, Class<ElementDecorator> clazz) {
         WebElement proxy = proxyForLocator(loader, locator);
         return WrapperFactory.createInstance(clazz, proxy);
     }
 
     @SuppressWarnings("unchecked")
-    protected List<AbstractElement> createList(ClassLoader loader, ElementLocator locator, Class<AbstractElement> clazz) {
+    protected List<ElementDecorator> createList(ClassLoader loader, ElementLocator locator, Class<ElementDecorator> clazz) {
         InvocationHandler handler = new LocatingCustomElementListHandler(locator, clazz);
-        List<AbstractElement> elements = (List<AbstractElement>) Proxy.newProxyInstance(loader, new Class[]{List.class}, handler);
+        List<ElementDecorator> elements = (List<ElementDecorator>) Proxy.newProxyInstance(loader, new Class[]{List.class}, handler);
         return elements;
     }
 

@@ -1,11 +1,10 @@
 package com.epam.lab.seleniumframework.controls;
 
 
-import com.epam.lab.seleniumframework.controls.decorataionfactory.AbstractElement;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 
-public class TextInput extends AbstractElement {
+public class TextInput extends ElementDecorator {
 
     private static final Logger LOGGER = Logger.getLogger(TextInput.class);
 
