@@ -1,261 +1,64 @@
-[INFO ] [2017-09-18 15:00:55] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:00:56] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:01:04] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:01:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:01:05] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 63, msg: Quiting browser
-[INFO ] [2017-09-18 15:01:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:01:07] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:01:07] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 63, msg: Quiting browser
-[INFO ] [2017-09-18 15:04:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 29, msg: Create instance
-[INFO ] [2017-09-18 15:04:37] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 29, msg: Create instance
-[INFO ] [2017-09-18 15:04:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 29, msg: Create instance
-[INFO ] [2017-09-18 15:04:45] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:04:49] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:06:57] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 35, msg: Create instance
-[INFO ] [2017-09-18 15:07:01] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 35, msg: Create instance
-[INFO ] [2017-09-18 15:07:12] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:07:13] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:07:16] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:07:16] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:07:39] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:07:40] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:07:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 61, msg: Quiting browser
-[INFO ] [2017-09-18 15:07:46] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 61, msg: Quiting browser
-[INFO ] [2017-09-18 15:08:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 31, msg: Create instance
-[INFO ] [2017-09-18 15:08:53] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 31, msg: Create instance
-[INFO ] [2017-09-18 15:09:01] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:09:04] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:09:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:09:06] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:09:07] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:09:07] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 57, msg: Quiting browser
-[INFO ] [2017-09-18 15:09:09] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:09:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:09:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: getWebDriverThreadLocal, line: 31, msg: Create instance
-[INFO ] [2017-09-18 15:09:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:09:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 57, msg: Quiting browser
-[INFO ] [2017-09-18 15:09:22] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:09:25] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:09:26] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:09:29] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:09:29] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 57, msg: Quiting browser
-[INFO ] [2017-09-18 15:11:06] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:11:08] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:11:13] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:11:13] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:11:14] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:11:14] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:11:16] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:11:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:11:18] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:11:18] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:11:29] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:11:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:11:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:11:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:11:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:12:15] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:12:17] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:12:18] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:12:19] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:12:20] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:12:21] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:12:21] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:12:21] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:12:23] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:12:23] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:12:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:12:36] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:12:38] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:12:38] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:12:38] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:13:40] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:13:41] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:13:43] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:13:44] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:13:44] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:13:45] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:13:45] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:13:45] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:13:47] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:13:47] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:14:00] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:14:02] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:14:04] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:14:06] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:14:07] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:14:09] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:14:09] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:19:01] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:19:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:19:06] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:19:07] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:19:08] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:19:09] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:19:10] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:19:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:19:11] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:19:12] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:19:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:19:14] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:19:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:19:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:19:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:19:30] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:19:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:19:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:19:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:19:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:19:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:19:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:19:33] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:37:19] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 65, msg: User successfully logged in
-[INFO ] [2017-09-18 15:37:21] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 65, msg: User successfully logged in
-[INFO ] [2017-09-18 15:37:23] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 65, msg: User successfully logged in
-[INFO ] [2017-09-18 15:37:23] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:37:24] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 103, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:37:25] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:37:26] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 103, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:37:26] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:37:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:37:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:37:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:37:27] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:37:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 103, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:37:30] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:37:30] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:37:42] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 65, msg: User successfully logged in
-[INFO ] [2017-09-18 15:37:42] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 65, msg: User successfully logged in
-[INFO ] [2017-09-18 15:37:47] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:37:48] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:37:48] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 103, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:37:49] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 103, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:37:49] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:37:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:37:50] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 91, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:37:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:39:04] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:39:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:39:11] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:39:12] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:39:13] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:39:13] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:39:14] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:39:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:39:14] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:39:16] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:39:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:39:16] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:39:17] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:39:19] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:39:19] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:39:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:39:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:39:35] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:39:35] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:39:36] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:39:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:39:37] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:39:37] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:39:39] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:39:39] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:42:22] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:42:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:42:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:42:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:42:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:42:29] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:42:29] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:42:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:42:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:42:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:42:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:42:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:42:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:42:36] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:42:36] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:42:44] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:42:47] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:42:48] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:42:50] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:42:50] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:42:56] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:42:59] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:43:00] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:43:00] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:43:00] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 51, msg: Quiting browser
-[INFO ] [2017-09-18 15:52:58] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:53:01] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:53:02] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:53:04] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:53:04] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 48, msg: Quiting browser
-[INFO ] [2017-09-18 15:53:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:53:06] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:53:09] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:53:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:53:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:53:11] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:53:12] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:53:12] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 48, msg: Quiting browser
-[INFO ] [2017-09-18 15:53:14] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:53:14] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 48, msg: Quiting browser
-[INFO ] [2017-09-18 15:53:17] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:53:24] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 15:53:24] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:53:26] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 15:53:26] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 48, msg: Quiting browser
-[INFO ] [2017-09-18 15:53:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 15:53:31] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 15:53:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 15:53:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 15:53:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 48, msg: Quiting browser
-[INFO ] [2017-09-18 16:31:21] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:31:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:31:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 16:31:30] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:31:30] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:31:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 16:31:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 16:31:32] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:31:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 16:31:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:31:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:31:35] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 16:31:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:31:35] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 16:31:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:31:51] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:31:53] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:31:54] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 16:31:54] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:31:56] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 16:31:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:31:56] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (38)
-[INFO ] [2017-09-18 16:31:57] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:31:59] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 16:31:59] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:34:22] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:34:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 16:34:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:34:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:34:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 16:34:28] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:34:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (1)
-[INFO ] [2017-09-18 16:34:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:34:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:34:35] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 16:34:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:34:37] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (1)
-[INFO ] [2017-09-18 16:34:38] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:34:40] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 16:34:40] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:34:49] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:34:50] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
-[INFO ] [2017-09-18 16:34:53] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Черновики (1)
-[INFO ] [2017-09-18 16:34:54] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:34:55] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Чернетки (23)
-[INFO ] [2017-09-18 16:34:56] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Отправленные
-[INFO ] [2017-09-18 16:34:56] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
-[INFO ] [2017-09-18 16:34:56] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 102, msg: Message from draft successfully sent
-[INFO ] [2017-09-18 16:34:57] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 90, msg: Message successfully saved in Надіслані
-[INFO ] [2017-09-18 16:34:57] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
+[INFO ] [2017-09-18 18:35:22] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
+[INFO ] [2017-09-18 18:39:41] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 18:39:41] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:40:29] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:40:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:40:49] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:45:02] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 18:45:04] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 18:46:25] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:46:31] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:48:25] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 18:48:48] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 18:50:40] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 18:54:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 18:57:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 64, msg: User successfully logged in
+[INFO ] [2017-09-18 19:07:37] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:14:47] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 70, msg: User successfully logged in
+[INFO ] [2017-09-18 19:22:25] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:34:48] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:37:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:42:23] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:44:50] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:46:02] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 97, msg: Message successfully saved in Drafts (4)
+[INFO ] [2017-09-18 19:46:32] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 109, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 19:47:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 97, msg: Message successfully saved in Sent Mail
+[INFO ] [2017-09-18 19:50:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 69, msg: User successfully logged in
+[INFO ] [2017-09-18 19:50:43] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 95, msg: Message successfully saved in Drafts (4)
+[INFO ] [2017-09-18 19:50:46] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 107, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 19:50:47] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 95, msg: Message successfully saved in Sent Mail
+[INFO ] [2017-09-18 19:55:02] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 19:55:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 19:55:50] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Drafts (4)
+[INFO ] [2017-09-18 19:55:53] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 101, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 19:55:55] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Sent Mail
+[INFO ] [2017-09-18 19:55:55] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 19:55:58] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 19:57:52] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 19:58:28] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 19:58:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 19:58:35] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 50, msg: Quiting browser
+[INFO ] [2017-09-18 20:00:25] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:02:08] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:02:36] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:02:53] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Drafts (4)
+[INFO ] [2017-09-18 20:02:57] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 101, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 20:03:02] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Drafts (4)
+[INFO ] [2017-09-18 20:13:51] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:14:39] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:15:10] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Черновики (4)
+[INFO ] [2017-09-18 20:15:27] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 101, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 20:15:33] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Drafts (5)
+[INFO ] [2017-09-18 20:15:34] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Отправленные
+[INFO ] [2017-09-18 20:15:34] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
+[INFO ] [2017-09-18 20:15:38] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 101, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 20:15:42] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Sent Mail
+[INFO ] [2017-09-18 20:15:42] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
+[INFO ] [2017-09-18 20:17:40] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:17:41] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in
+[INFO ] [2017-09-18 20:18:01] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Drafts (5)
+[INFO ] [2017-09-18 20:18:05] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: sendLetterFromDraft, line: 101, msg: Message from draft successfully sent
+[INFO ] [2017-09-18 20:18:06] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isSavedInSection, line: 89, msg: Message successfully saved in Sent Mail
+[INFO ] [2017-09-18 20:18:06] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
+[INFO ] [2017-09-18 20:18:16] file: WebDriverUtils.java, class: com.epam.lab.seleniumframework.utils.WebDriverUtils, method: quit, line: 49, msg: Quiting browser
+[INFO ] [2017-09-18 20:19:04] file: GmailHomePage.java, class: com.epam.lab.seleniumframework.pageobjects.GmailHomePage, method: isLoggedIn, line: 63, msg: User successfully logged in

@@ -2,10 +2,22 @@
 <users>
     <users>
         <userEmail>tuserfirst@gmail.com</userEmail>
-        <userPassword>tuserfirst@gmail.com</userPassword>
+        <userPassword>tuserfirst12345</userPassword>
     </users>
     <users>
         <userEmail>balatskiyandr@gmail.com</userEmail>
         <userPassword>963852741bal</userPassword>
+    </users>
+    <users>
+        <userEmail>Tarchanihor@gmail.com</userEmail>
+        <userPassword>qweqweqwe</userPassword>
+    </users>
+    <users>
+        <userEmail>balatskiyandr@gmail.com</userEmail>
+        <userPassword>963852741bal</userPassword>
+    </users>
+    <users>
+        <userEmail>Tarchanihor@gmail.com</userEmail>
+        <userPassword>qweqweqwe</userPassword>
     </users>
 </users>

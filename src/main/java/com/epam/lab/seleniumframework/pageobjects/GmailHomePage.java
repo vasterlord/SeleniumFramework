@@ -35,16 +35,15 @@ public class GmailHomePage extends PageObject {
     @FindBy(xpath = "//table[@class='cf Ht']//img[@class='Ha']")
     private Button closeLetterActionElement;
 
-    @FindBy(xpath = "//div[contains(@jscontroller,'DUNnfe')]//div[contains(@role,'navigation')]//a[contains (@href,'https://mail.google.com/mail/u/0/#drafts')]")
-    private Button draftLinkElement;
-
-    @FindBy(xpath = "//div[contains(@jscontroller,'DUNnfe')]//div[contains(@role,'navigation')]//a[contains (@href,'https://mail.google.com/mail/u/0/#sent')]")
-    private Button sentLinkElement;
-
     @FindBys({
             @FindBy(xpath = "//table[@class='F cf zt']/tbody/tr[1]/td[6]/div[1]/div[1]/div[1]/span")
     })
     private List<Button> letterActionOpenElement;
+
+    @FindBys({
+            @FindBy(xpath = "//div[@class='n3']//a")
+    })
+    private List<Button> mailSections;
 
     public GmailHomePage() {
     }
@@ -69,19 +68,19 @@ public class GmailHomePage extends PageObject {
     }
 
     public void getLetterFromDraft() {
-        getLettersFromSection(draftLinkElement);
+        getLettersFromSection(mailSections.stream().filter(item -> item.getAttribute("href").toLowerCase().contains("drafts".toLowerCase())).findFirst().get().getAttribute("href"));
     }
 
     public void getLetterFromSent() {
-        getLettersFromSection(sentLinkElement);
+        getLettersFromSection(mailSections.stream().filter(item -> item.getAttribute("href").toLowerCase().contains("sent".toLowerCase())).findFirst().get().getAttribute("href"));
     }
 
     public boolean isSavedInDraft(String subjectText, String contentLetterText) {
-        return isSavedInSection(subjectText, contentLetterText, draftLinkElement);
+        return isSavedInSection(subjectText, contentLetterText, mailSections.stream().filter(item -> item.getAttribute("href").toLowerCase().contains("drafts".toLowerCase())).findFirst().get());
     }
 
     public boolean isSavedInSent(String subjectText, String contentLetterText) {
-        return isSavedInSection(subjectText, contentLetterText, sentLinkElement);
+        return isSavedInSection(subjectText, contentLetterText, mailSections.stream().filter(item -> item.getAttribute("href").toLowerCase().contains("sent".toLowerCase())).findFirst().get());
     }
 
     private boolean isSavedInSection(String subjectText, String contentLetterText, Element lettersSectionWebElement) {
@@ -102,9 +101,9 @@ public class GmailHomePage extends PageObject {
         LOGGER.info("Message from draft successfully sent");
     }
 
-    private void getLettersFromSection(Element webElement) {
-        webElement.click();
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), TIME_OUT_IN_SECONDS).until(ExpectedConditions.urlToBe(webElement.getAttribute("href")));
+    private void getLettersFromSection(String maiLSectionURL) {
+        this.webDriver.navigate().to(maiLSectionURL);
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), TIME_OUT_IN_SECONDS).until(ExpectedConditions.urlToBe(maiLSectionURL));
     }
 
 }

@@ -15,7 +15,7 @@ public class GmailTest {
 
     @AfterMethod
     public void tearDown() throws Exception {
-         WebDriverUtils.quit();
+        WebDriverUtils.quit();
     }
 
     @Test(dataProvider = "testData", threadPoolSize = 3)

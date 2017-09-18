@@ -6,8 +6,23 @@
         <subjectText>Selenium letter subject from tuserfirst@gmail.com</subjectText>
     </letters>
     <letters>
-        <contentLetter>It's letter sent from testng selenium test to tuserfirst@gmail.com</contentLetter>
+        <contentLetter>It's letter sent from testng selenium test to Tarchanihor@gmail.com</contentLetter>
+        <receiverEmail>Tarchanihor@gmail.com</receiverEmail>
+        <subjectText>Selenium letter subject from balatskiyandr@gmail.com</subjectText>
+    </letters>
+    <letters>
+        <contentLetter>It's letter sent from testng selenium test to balatskiyandr@gmail.com</contentLetter>
+        <receiverEmail>balatskiyandr@gmail.com</receiverEmail>
+        <subjectText>Selenium letter subject from Tarchanihor@gmail.com</subjectText>
+    </letters>
+    <letters>
+        <contentLetter>It's letter sent from testng selenium test to Tarchanihor@gmail.com</contentLetter>
         <receiverEmail>tuserfirst@gmail.com</receiverEmail>
         <subjectText>Selenium letter subject from balatskiyandr@gmail.com</subjectText>
+    </letters>
+    <letters>
+        <contentLetter>It's letter sent from testng selenium test to balatskiyandr@gmail.com</contentLetter>
+        <receiverEmail>balatskiyandr@gmail.com</receiverEmail>
+        <subjectText>Selenium letter subject from tuserfirst@gmail.com</subjectText>
     </letters>
 </letters>

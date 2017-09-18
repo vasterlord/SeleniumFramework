@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageObject {
 
-    public static final int TIME_OUT_IN_SECONDS = 30;
+    public static final int TIME_OUT_IN_SECONDS = 200;
     protected ConfigurationProperties configurationProperties;
     protected WebDriver webDriver = WebDriverUtils.getWebDriverThreadLocal();
 
