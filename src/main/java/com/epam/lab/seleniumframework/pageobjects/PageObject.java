@@ -11,16 +11,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageObject {
 
-    private static final int TIME_OUT_IN_SECONDS = 30;
+    public static final int TIME_OUT_IN_SECONDS = 30;
     protected ConfigurationProperties configurationProperties;
+    protected WebDriver webDriver = WebDriverUtils.getWebDriverThreadLocal();
 
-    public PageObject(WebDriver webDriver) {
-        configurationProperties = new ConfigurationProperties();
-        PageFactory.initElements(new CustomFieldDecorator(webDriver), this);
-    }
 
     public PageObject() {
-        this(WebDriverUtils.getWebDriverThreadLocal());
+        configurationProperties = new ConfigurationProperties();
+        PageFactory.initElements(new CustomFieldDecorator(webDriver), this);
     }
 
     protected void waitPresenceOfElement(String locator) {

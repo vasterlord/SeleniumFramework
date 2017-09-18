@@ -1,6 +1,6 @@
 package com.epam.lab.seleniumframework.controls.decorataionfactory;
 
-import com.epam.lab.seleniumframework.controls.ElementDecorator;
+import com.epam.lab.seleniumframework.controls.Element;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.pagefactory.ElementLocator;
 
@@ -13,17 +13,16 @@ import java.util.List;
 public class LocatingCustomElementListHandler implements InvocationHandler {
 
     private final ElementLocator locator;
-    private final Class<ElementDecorator> clazz;
+    private final Class<Element> clazz;
 
-    public LocatingCustomElementListHandler(ElementLocator locator, Class<ElementDecorator> clazz) {
+    public LocatingCustomElementListHandler(ElementLocator locator, Class<Element> clazz) {
         this.locator = locator;
         this.clazz = clazz;
     }
 
     public Object invoke(Object object, Method method, Object[] objects) throws Throwable {
         List<WebElement> elements = locator.findElements();
-        List<ElementDecorator> customs = new ArrayList<ElementDecorator>();
-
+        List<Element> customs = new ArrayList<Element>();
         for (WebElement element : elements) {
             customs.add(WrapperFactory.createInstance(clazz, element));
         }

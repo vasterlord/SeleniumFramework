@@ -1,9 +1,11 @@
 package com.epam.lab.seleniumframework.controls;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
-public class CheckBox extends ElementDecorator {
+public class CheckBox extends Element {
 
     private static final Logger LOGGER = Logger.getLogger(CheckBox.class);
 
@@ -12,17 +14,24 @@ public class CheckBox extends ElementDecorator {
     }
 
     public boolean isVisible() {
-        return getWrappedElement().getCssValue("visibility").equalsIgnoreCase("visible");
+        return this.webElement.getCssValue("visibility").equalsIgnoreCase("visible");
     }
 
     public boolean isFullEnabled() {
-        return getWrappedElement().isEnabled() && this.getWrappedElement().isDisplayed() && this.isVisible();
+        return this.webElement.isEnabled() && this.webElement.isDisplayed() && this.isVisible();
     }
 
-    @Override
     public void click() {
-        if(isFullEnabled()) {
-            super.click();
+        if (isFullEnabled()) {
+            this.webElement.click();
+        } else {
+            LOGGER.error("This element is not clickable!");
+        }
+    }
+
+    public void clickAndHold(WebDriver webDriver) {
+        if (isFullEnabled()) {
+            new Actions(webDriver).clickAndHold(this.webElement).release().perform();
         } else {
             LOGGER.error("This element is not clickable!");
         }
@@ -30,30 +39,20 @@ public class CheckBox extends ElementDecorator {
 
     public void setChecked(boolean value) {
         if (value != isChecked()) {
-            this.getWrappedElement().click();
+            this.webElement.click();
         }
     }
 
     public boolean isChecked() {
-        return this.getWrappedElement().isSelected();
+        return this.webElement.isSelected();
     }
 
-    @Override
     public String getText() {
-        if(isChecked()) {
+        if (isChecked()) {
             return "checked";
         } else {
             return "unchecked";
         }
     }
 
-    @Override
-    public void sendKeys(CharSequence... charSequences) {
-        LOGGER.error("This element can't get some text key!");
-    }
-
-    @Override
-    public void submit() {
-        LOGGER.error("This element can't be submit!");
-    }
 }

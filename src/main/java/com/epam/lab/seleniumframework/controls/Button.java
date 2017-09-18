@@ -1,15 +1,16 @@
 package com.epam.lab.seleniumframework.controls;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
-public class TextInput extends Element {
+public class Button extends Element {
 
-    private static final Logger LOGGER = Logger.getLogger(TextInput.class);
+    private static final Logger LOGGER = Logger.getLogger(Button.class);
 
-    public TextInput(WebElement webElement) {
+    public Button(WebElement webElement) {
         super(webElement);
-
     }
 
     public boolean isVisible() {
@@ -28,16 +29,17 @@ public class TextInput extends Element {
         }
     }
 
+    public void clickAndHold(WebDriver webDriver) {
+        if (isFullEnabled()) {
+            new Actions(webDriver).clickAndHold(this.webElement).release().perform();
+        } else {
+            LOGGER.error("This element is not clickable!");
+        }
+    }
+
     public String getText() {
         return this.webElement.getAttribute("innerText");
     }
 
-    public void sendKeys(CharSequence... charSequences) {
-        if (isFullEnabled()) {
-            this.webElement.sendKeys(charSequences);
-        } else {
-            LOGGER.error("This element is not enabled!");
-        }
-    }
 
 }

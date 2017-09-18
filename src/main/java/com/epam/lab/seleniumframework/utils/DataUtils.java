@@ -27,13 +27,14 @@ public class DataUtils {
         }
     }
 
+    @SuppressWarnings(value = "unchecked")
     public static Letters getLettersFromXML() {
-        JAXBContext jaxbContext = null;
+        JAXBContext jaxbContext;
         Letters letters = new Letters();
         try {
             jaxbContext = JAXBContext.newInstance(Letters.class);
-            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            letters = (Letters) jaxbUnmarshaller.unmarshal(Paths.get(configurationProperties.getLettersXMLData()).toFile());
+            Unmarshaller jaxbContextUnmarshaller = jaxbContext.createUnmarshaller();
+            letters = (Letters) jaxbContextUnmarshaller.unmarshal(Paths.get(configurationProperties.getLettersXMLData()).toFile());
             return letters;
         } catch (JAXBException e) {
             e.printStackTrace();

@@ -1,10 +1,10 @@
 package com.epam.lab.seleniumframework.pageobjects;
 
+import com.epam.lab.seleniumframework.controls.Button;
+import com.epam.lab.seleniumframework.controls.Element;
 import com.epam.lab.seleniumframework.controls.TextInput;
-import com.epam.lab.seleniumframework.controls.TextSection;
 import com.epam.lab.seleniumframework.utils.WebDriverUtils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,11 +13,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 public class GmailHomePage extends PageObject {
     private static final Logger LOGGER = Logger.getLogger(GmailHomePage.class);
 
     @FindBy(xpath = "//div[@class='T-I J-J5-Ji T-I-KE L3']")
-    private TextSection writeActionElement;
+    private Button writeActionElement;
 
     @FindBy(xpath = "//textarea[@class='vO']")
     private TextInput receiverElement;
@@ -29,21 +30,21 @@ public class GmailHomePage extends PageObject {
     private TextInput contentLetterElement;
 
     @FindBy(xpath = "//div[@class='T-I J-J5-Ji aoO T-I-atl L3']")
-    private TextSection sendLetterActionElement;
+    private Button sendLetterActionElement;
 
     @FindBy(xpath = "//table[@class='cf Ht']//img[@class='Ha']")
-    private TextSection closeLetterActionElement;
+    private Button closeLetterActionElement;
 
-    @FindBy(xpath = "//div[@class='TK']/div[4]/div[1]/div[1]/div[2]/span[1]/a[1]")
-    private TextSection draftLinkElement;
+    @FindBy(xpath = "//div[contains(@jscontroller,'DUNnfe')]//div[contains(@role,'navigation')]//a[contains (@href,'https://mail.google.com/mail/u/0/#drafts')]")
+    private Button draftLinkElement;
 
-    @FindBy(xpath = "//div[@class='TK']/div[3]/div[1]/div[1]/div[2]/span[1]/a[1]")
-    private TextSection sentLinkElement;
+    @FindBy(xpath = "//div[contains(@jscontroller,'DUNnfe')]//div[contains(@role,'navigation')]//a[contains (@href,'https://mail.google.com/mail/u/0/#sent')]")
+    private Button sentLinkElement;
 
     @FindBys({
             @FindBy(xpath = "//table[@class='F cf zt']/tbody/tr[1]/td[6]/div[1]/div[1]/div[1]/span")
     })
-    private List<TextSection> letterActionOpenElement;
+    private List<Button> letterActionOpenElement;
 
     public GmailHomePage() {
     }
@@ -67,11 +68,11 @@ public class GmailHomePage extends PageObject {
         }
     }
 
-    public void getLetterFromDraft(){
+    public void getLetterFromDraft() {
         getLettersFromSection(draftLinkElement);
     }
 
-    public void getLetterFromSent(){
+    public void getLetterFromSent() {
         getLettersFromSection(sentLinkElement);
     }
 
@@ -83,11 +84,9 @@ public class GmailHomePage extends PageObject {
         return isSavedInSection(subjectText, contentLetterText, sentLinkElement);
     }
 
-    private boolean isSavedInSection(String subjectText, String contentLetterText, WebElement lettersSectionWebElement) {
-        List<WebElement> letterDraftInfo = letterActionOpenElement.stream().filter(item -> item.getText().toLowerCase().contains(subjectText.toLowerCase()) ||
-                item.getText().toLowerCase().contains(contentLetterText.toLowerCase())).collect(Collectors.toList());
-        letterDraftInfo = letterDraftInfo.stream().distinct().collect(Collectors.toList());
-        if (letterDraftInfo.get(0).getText().equalsIgnoreCase(subjectText) && letterDraftInfo.get(1).getText().toLowerCase().contains(contentLetterText.toLowerCase())) {
+    private boolean isSavedInSection(String subjectText, String contentLetterText, Element lettersSectionWebElement) {
+        List<Element> letterDataList = letterActionOpenElement.stream().skip(2).collect(Collectors.toList());
+        if (letterDataList.get(0).getText().equalsIgnoreCase(subjectText) && letterDataList.get(1).getText().toLowerCase().contains(contentLetterText.toLowerCase())) {
             LOGGER.info(String.format("Message successfully saved in %s", lettersSectionWebElement.getText()));
             return true;
         } else {
@@ -97,15 +96,15 @@ public class GmailHomePage extends PageObject {
     }
 
     public void sendLetterFromDraft() {
-        letterActionOpenElement.stream().filter(item -> item.getText().length() > 0).findFirst().get().click();
+        letterActionOpenElement.stream().skip(2).findFirst().get().clickAndHold(this.webDriver);
         waitPresenceOfElement("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']");
         sendLetterActionElement.click();
         LOGGER.info("Message from draft successfully sent");
     }
 
-    private void getLettersFromSection(WebElement webElement) {
+    private void getLettersFromSection(Element webElement) {
         webElement.click();
-        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), 2000).until(ExpectedConditions.urlToBe(webElement.getAttribute("href")));
+        new WebDriverWait(WebDriverUtils.getWebDriverThreadLocal(), TIME_OUT_IN_SECONDS).until(ExpectedConditions.urlToBe(webElement.getAttribute("href")));
     }
 
 }

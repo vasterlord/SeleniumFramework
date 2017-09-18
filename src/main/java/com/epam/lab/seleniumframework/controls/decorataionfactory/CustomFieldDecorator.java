@@ -1,6 +1,6 @@
 package com.epam.lab.seleniumframework.controls.decorataionfactory;
 
-import com.epam.lab.seleniumframework.controls.ElementDecorator;
+import com.epam.lab.seleniumframework.controls.Element;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,27 +20,23 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
 
     @Override
     public Object decorate(ClassLoader loader, Field field) {
-        Class<ElementDecorator> decoratableClass = decoratableClass(field);
+        Class<Element> decoratableClass = decoratableClass(field);
         if (decoratableClass != null) {
             ElementLocator locator = factory.createLocator(field);
             if (locator == null) {
                 return null;
             }
-
             if (List.class.isAssignableFrom(field.getType())) {
                 return createList(loader, locator, decoratableClass);
             }
-
             return createElement(loader, locator, decoratableClass);
         }
         return super.decorate(loader, field);
     }
 
     @SuppressWarnings("unchecked")
-    private Class<ElementDecorator> decoratableClass(Field field) {
-
+    private Class<Element> decoratableClass(Field field) {
         Class<?> clazz = field.getType();
-
         if (List.class.isAssignableFrom(clazz)) {
 
             if (field.getAnnotation(FindBy.class) == null && field.getAnnotation(FindBys.class) == null) {
@@ -53,23 +49,22 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
             clazz = (Class<?>) ((ParameterizedType) genericType).
                     getActualTypeArguments()[0];
         }
-
-        if (ElementDecorator.class.isAssignableFrom(clazz)) {
-            return (Class<ElementDecorator>) clazz;
+        if (Element.class.isAssignableFrom(clazz)) {
+            return (Class<Element>) clazz;
         } else {
             return null;
         }
     }
 
-    protected ElementDecorator createElement(ClassLoader loader, ElementLocator locator, Class<ElementDecorator> clazz) {
+    protected Element createElement(ClassLoader loader, ElementLocator locator, Class<Element> clazz) {
         WebElement proxy = proxyForLocator(loader, locator);
         return WrapperFactory.createInstance(clazz, proxy);
     }
 
     @SuppressWarnings("unchecked")
-    protected List<ElementDecorator> createList(ClassLoader loader, ElementLocator locator, Class<ElementDecorator> clazz) {
+    protected List<Element> createList(ClassLoader loader, ElementLocator locator, Class<Element> clazz) {
         InvocationHandler handler = new LocatingCustomElementListHandler(locator, clazz);
-        List<ElementDecorator> elements = (List<ElementDecorator>) Proxy.newProxyInstance(loader, new Class[]{List.class}, handler);
+        List<Element> elements = (List<Element>) Proxy.newProxyInstance(loader, new Class[]{List.class}, handler);
         return elements;
     }
 

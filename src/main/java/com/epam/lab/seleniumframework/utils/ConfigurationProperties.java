@@ -43,5 +43,6 @@ public class ConfigurationProperties {
     public String getWebDriverPath() {
         return properties.getProperty(WEB_DRIVER_PATH_KEY);
     }
+
 }
 
